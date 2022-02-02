@@ -1,0 +1,69 @@
+body {
+  background: rgb(222, 241, 2241);
+  font: normal 15pt Arial;
+  padding: 15px;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384);
+}
+
+li {
+  margin: 5px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  min-width: 125px;
+}
+
+.range {
+  min-width: 125px;
+}
+
+.text {
+  margin-left: 15px;
+  width: 75px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 125px;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+header {
+  color: rgb(22, 119, 112);
+  text-align: center;
+  padding: 5px;
+}
+
+footer {
+  color: rgb(22, 119, 112);
+  text-align: center;
+  font-style: italic;
+}
